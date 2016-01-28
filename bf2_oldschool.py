@@ -1,12 +1,12 @@
 ##############################################################################
 #                                                                            #
 #             bf2_oldschool.py - Weapon Punisher by MisiekBest               #
-#	                    --- http://vis-clan.pl ---                       #
+#	                    --- http://vis-clan.pl ---                       	 #
 #                     --- http://bfo.misiekbest.pl ---                       #
 #                                                                            #
 #    Released: 28.12.2009                                                    #
 #    Script Version: 0.9c                                                    #
-#	 Copyright (C) 2009-2010  Michal 'MisiekBest' Pawlikowski                 #
+#	 Copyright (C) 2009-2010  Michal 'MisiekBest' Pawlikowski                #
 #                                                                            #
 #    This program is free software: you can redistribute it and/or modify    #
 #    it under the terms of the GNU General Public License as published by    #
@@ -140,7 +140,7 @@ CHANGELOG:
 # 5 - NO OLDSCHOOL LEVEL, JUST USE OTHER SETTINGS (in.ex.: anticommander or c4, claymore etc.)  #
 # 6 - NO SNIPERS                                                                                @
 #################################################################################################
-OLDSCHOOL_LEVEL = 6
+OLDSCHOOL_LEVEL = 4
 
 
 
@@ -153,10 +153,10 @@ OLDSCHOOL_LEVEL = 6
 # 0 - DISABLE                                                         #
 # 1 - ENABLE                                                          #
 #######################################################################
-NO_C4 = 0
+NO_C4 = 1
 NO_CLAYMORE = 1
-NO_MOUNTED_MGS = 0 #NOTE: WORKS ONLY WITH PUNISH METHOD 2
-NO_TOW_MISSILE = 0 #NOTE: WORKS ONLY WITH PUNISH METHOD 2
+NO_MOUNTED_MGS = 1 #NOTE: WORKS ONLY WITH PUNISH METHOD 2
+NO_TOW_MISSILE = 1 #NOTE: WORKS ONLY WITH PUNISH METHOD 2
 
 
 
@@ -200,7 +200,7 @@ WARNING_LVL0 = "Warning %s ! Do not use this weapon! Its forbidden!"
 #######################################
 #     PUNISH METHOD 1 - CONFIG        #
 #######################################
-WARNING_LVL1 = "Warning %s ! You have been killed for using restricted weapon!"
+WARNING_LVL1 = "Warning %s ! You have been killed for using restricted weapon! C4, Claymore, Unlocks, Mounted LMG are not allowed!"
 
 
 #######################################
@@ -229,11 +229,11 @@ RESTRICTED_WEAPON_KICK_IN_MINUTES = 10
 #                                                                                                           #
 # COMMANDER_KICK_REASON - This msg gets player after kick - of course in cool punkbuster window ;)          #
 #############################################################################################################
-ANTICOMMANDER = 0
+ANTICOMMANDER = 1
 COMMANDER_MSG = "Warning! Player %s became a commander!"
 
-COMMANDER_AUTOKICK = 0
-COMMANDER_KICK_TIME_IN_MINUTES = 2
+COMMANDER_AUTOKICK = 1
+COMMANDER_KICK_TIME_IN_MINUTES = 0
 COMMANDER_KICK_MSG = "Kicking %s for using commander!"
 COMMANDER_KICK_REASON = "You have been kicked for using commander!"
 
