@@ -138,7 +138,7 @@ CHANGELOG:
 #     (NOTE: OLDSCHOOL LEVEL 3 WILL WORK ONLY WITH PUNISH METHOD 2 (kicking)!!!)                #
 # 4 - NO UNLOCKS (all kits but without unlocks)                                                 #
 # 5 - NO OLDSCHOOL LEVEL, JUST USE OTHER SETTINGS (in.ex.: anticommander or c4, claymore etc.)  #
-# 6 - NO SNIPERS                                                                                @
+# 6 - NO SNIPERS                                                                                #
 #################################################################################################
 OLDSCHOOL_LEVEL = 4
 
@@ -200,7 +200,7 @@ WARNING_LVL0 = "Warning %s ! Do not use this weapon! Its forbidden!"
 #######################################
 #     PUNISH METHOD 1 - CONFIG        #
 #######################################
-WARNING_LVL1 = "Warning %s ! You have been killed for using restricted weapon! C4, Claymore, Unlocks, Mounted LMG are not allowed!"
+WARNING_LVL1 = "Warning %s ! You have been killed for using restricted weapon!"
 
 
 #######################################
