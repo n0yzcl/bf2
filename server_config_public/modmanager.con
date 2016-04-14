@@ -42,7 +42,7 @@ mm_iga.addCmdBinding "s|say:bf2cc sendserverchat"
 mm_iga.addCmdBinding "p|pause:exec gameLogic.togglePause"
 mm_iga.addCmdBinding "h|help:help"
 # Adding admins takes the following form:
-mm_iga.addAdmin "df8def69feccf801c58ab4a7c5352618:all"
+mm_iga.addAdmin "<hash>:all"
 # The message displayed when an player trys to use IGA but is not recognised as an admin
 mm_iga.notAdminMessage "Sorry %s you are not registered as an admin!"
 # The message displayed when an admin tries to use a command they are not authorised for
